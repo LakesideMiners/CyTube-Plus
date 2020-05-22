@@ -95,8 +95,8 @@ UI_Squavatars = 1;		// automatic squavatars (2-colored square avatars) before ev
 UI_UsernameMark = 1;		// [&] custom mark after username (default ":")
 UI_MessagesSuffix = 1;		// [&] text added to random chat messages
 UI_CustomPingSound = 1;		// [&] custom sound for chat notifications
-UI_SoundFilters = 1;		// [&] chat sounds played after sending certain words
-UI_ChatSpeak = 1;		// text speaking after '!say' and '!mow' commands (english and polish)
+UI_SoundFilters = 0;		// [&] chat sounds played after sending certain words
+UI_ChatSpeak = 0;		// text speaking after '!say' and '!mow' commands (english and polish)
 UI_IndependentEmotes = 1;	// [&] additional settings-independent emotes
 UI_IndependentFilters = 1;	// [&] additional settings-independent filters
 UI_FontsBtn = 1;		// button displaying box with clickable chat fonts
@@ -111,8 +111,8 @@ UI_ModPanel = 1;		// [&] panel with messages and help for moderators
 UI_CustomCaptions = 1;		// [&] custom captions for add, refresh, voteskip buttons, and welcome text
 UI_PlayerOptions = 1;		// [&] additional player options
 UI_TransformationBtns = 1;	// player transformation buttons
-UI_ChannelDatabase = 1;		// [&] box with embed additional media database
-UI_ChannelGalleries = 1;	// [&] box with embed galleries
+UI_ChannelDatabase = 0;		// [&] box with embed additional media database
+UI_ChannelGalleries = 0;	// [&] box with embed galleries
 UI_DisplayModeSel = 1;		// selector with player display modes
 UI_ChannelTheme = 1;		// [&] additional default channel theme
 UI_EmbeddingMedia = 1;		// [&] possibility to embedding (displaying) images and .webm videos on the chat
@@ -163,7 +163,7 @@ ChannelAnnouncement_Title = 'Administration Message';
 
 TitleIcon_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
 
-TitleBarDescription_Caption = 'Now Playing:';
+TitleBarDescription_Caption = 'Now Watching:';
 
 JoinText_Message = 'joined';
 
@@ -193,7 +193,6 @@ HeaderDropMenu_Array = [
 ['Source code', 'https://github.com/calzoneman/sync'],
 ['FAQ', 'https://github.com/calzoneman/sync/wiki/Beginner%27s-Guide-and-FAQ'],
 ['IRC', 'http://webchat.6irc.net/?channels=chat,synchtube'],
-['CyTube Plus', 'https://github.com/zimny-lech/CyTube-Plus'],
 ];
 
 MOTDAutoLogo_Array = [
@@ -202,9 +201,8 @@ MOTDAutoLogo_Array = [
 
 MOTDTabs_Array = [
 ['Home',	'Welcome to our channel!'],
-['Playlist',	'Playlist tab.<br /><br />We watched this, that and this.'],
-['Schedule',	'Schedule:<br /><br /><ul><li>Monday: ...</li><li>Tuesday: ...</li><li>Wendesday: ...</li><li>Thursday: ...</li><li>Friday: ...</li><li>Saturday: ...</li><li>Sunday: ...</li></ul>'],
-['Contact',	'Contact:<br /><br />Email - ...<br />Skype - ...'],
+['Schedule',	'Whenever we feel like it],
+['Contact\/Recomend Thing To Watch',	'Contact: Xaniene on Telegram'],
 ];
 
 RandomQuotes_Array = [
@@ -266,7 +264,7 @@ MOTDTabs_CSS = {
 'background-color':	'black',
 }
 
-RulesBtn_HTML = '<ol><li>You want to write on the chat? Enter temporary nickname into <b>Guest Login</b> input and click enter.</li><li>You want to register a nick? Click <b>Account -> Profile</b> on the top of the channel, and fill the registration form. You don\'t need an email to register.</li><li>Do not spam.</li><li>You want to have this application on your own channel? Go to <a href="https://github.com/zimny-lech/CyTube-Plus">https://github.com/zimny-lech/CyTube-Plus</a>.</li></ol>';
+RulesBtn_HTML = '<ol><li>You want to write on the chat? Enter temporary nickname into <b>Guest Login</b> input and click enter.</li><li>You want to register a nick? Click <b>Account -> Profile</b> on the top of the channel, and fill the registration form. You don\'t need an email to register.</li><li>Do not spam.</li><li>This is a furgather <b>ONLY<b/> channel, please do not share the link to this to anyone outside of Furgather</li></ol>';
 
 ChannelAnnouncement_HTML = 'This channel has been created with <a href="https://github.com/zimny-lech/CyTube-Plus" target="_blank">CyTube Plus 4.5</a>.';
 
@@ -274,7 +272,7 @@ EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"
 
 EmbeddingMedia_Videos = 'a[href$=".webm"]';
 
-CustomFooter_HTML = 'This is custom footer.';
+CustomFooter_HTML = 'OWOWHATSTHIS.';
 
 CustomRightFooter_HTML = '';
 
